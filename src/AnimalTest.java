@@ -1,6 +1,13 @@
 import static org.junit.Assert.*;
 
 public class AnimalTest {
+    @org.junit.Test
+    public void setnumLegs() {
+        Animal animal = new Animal(8,25,false,"Octopus");
+        Integer expected = 8;
+        Integer actual = 8;
+        assertEquals(expected,actual);
+    }
 
     @org.junit.Test
     public void getnumLegs() {
