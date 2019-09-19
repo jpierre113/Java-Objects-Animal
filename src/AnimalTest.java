@@ -43,7 +43,7 @@ public class AnimalTest {
 
     @org.junit.Test
     public void getisEndangered() {
-        Animal animal = new Animal(2,44,true,"Octopus");
+        Animal animal = new Animal(2,44,false,"Octopus");
         Boolean expected = false;
         Boolean actual = false;
         assertEquals(expected,actual);
