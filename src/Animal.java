@@ -46,32 +46,31 @@ public class Animal {
     public static void main(String[] args) {
         System.out.println("Hello, world");
         //Instantiate new Animal
-        Animal animal = new Animal (8,25,false,"Octopus");
+        Animal octopus = new Animal (8,25,false,"Olivia");
 
-        String name = animal.getName();
-        int topSpeed = animal.getTopSpeed();
+        String name;
+        int topSpeed ;
 
         //get name and speed values using getters
-        name = animal.getName();
-        topSpeed = animal.getTopSpeed() ;
+        name = octopus.getName();
+        topSpeed = octopus.getTopSpeed();
 
         //Print some output
-        System.out.println("The " + animal.getName() + " has a top speed of " + animal.getTopSpeed() + " mph.");
+        System.out.println("The " + octopus.getName() + " has a top speed of " + octopus.getTopSpeed() + " mph.");
 
         //Set new name, speed, and endangered properties values using setters
-         animal = new Animal(8,25,false,"Octopus");
-        animal.setnumLegs(4);
-        animal.setTopSpeed(12);
-        animal.setisEndangered(true);
-        animal.setName("Sea Lion");
+
+        octopus.setTopSpeed(12);
+        octopus.setisEndangered(true);
+        octopus.setName("Oswald");
         //get new values using getters
-        animal.getnumLegs();
-        animal.getTopSpeed();
-        animal.getisEndangered();
-        animal.getName();
+        octopus.getnumLegs();
+        octopus.getTopSpeed();
+        octopus.getisEndangered();
+        octopus.getName();
 
 
         //Print some output
-        System.out.println("The amount of legs I have: " + animal.numLegs + ", My top speed is: " + animal.topSpeed + ", Am I endangered? " + animal.isEndangered + ", I am a(n): " + animal.name);
+        System.out.println("The amount of legs I have: " + octopus.numLegs + ", My top speed is: " + octopus.topSpeed + ", Am I endangered? " + octopus.isEndangered + ", I am a(n): " + octopus.name);
     }
 }
