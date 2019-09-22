@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b770f5a6-a0a2-435f-80f8-7dc3b11a9623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AnimalTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Animal/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Animal/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Animal/AnimalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,15 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalTest.getisEndangered">
-    <configuration name="SuperHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ga.superhero.SuperHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ga.superhero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.AnimalTest.getName">
+    <configuration name="AnimalTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.getTopSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
+      <option name="METHOD_NAME" value="getTopSpeed" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest.setTopSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.setName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Animal" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AnimalTest" />
-      <option name="METHOD_NAME" value="setTopSpeed" />
+      <option name="METHOD_NAME" value="setName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,23 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest.setnumLegs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Animal" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
-      <option name="METHOD_NAME" value="setnumLegs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalTest.getName" />
+        <item itemvalue="JUnit.AnimalTest.setName" />
         <item itemvalue="JUnit.AnimalTest.getisEndangered" />
-        <item itemvalue="JUnit.AnimalTest.setTopSpeed" />
-        <item itemvalue="Application.SuperHero" />
-        <item itemvalue="JUnit.AnimalTest.setnumLegs" />
         <item itemvalue="JUnit.AnimalTest.setisEndangered" />
+        <item itemvalue="JUnit.AnimalTest.getTopSpeed" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568834294601</updated>
       <workItem from="1568834295797" duration="10042000" />
+      <workItem from="1568898733189" duration="2890000" />
+      <workItem from="1569176186416" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -140,7 +145,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

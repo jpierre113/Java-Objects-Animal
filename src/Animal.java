@@ -14,10 +14,10 @@ public class Animal {
     }
     //Put getters and setters here
 
-    public void setnumLegs(int numLegs){
+    public void setNumLegs(int numLegs){
         this.numLegs = numLegs;
     }
-    public int getnumLegs(){
+    public int getNumLegs(){
         return this.numLegs;
     }
 
@@ -64,7 +64,7 @@ public class Animal {
         octopus.setisEndangered(true);
         octopus.setName("Oswald");
         //get new values using getters
-        octopus.getnumLegs();
+        octopus.getNumLegs();
         octopus.getTopSpeed();
         octopus.getisEndangered();
         octopus.getName();
